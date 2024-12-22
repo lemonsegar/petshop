@@ -1,0 +1,538 @@
+INFO - 2024-11-10 11:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 11:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 12:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 12:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 12:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 12:07:57 --> ParseError: Unmatched '}'
+[Method: GET, Route: layout/index]
+in APPPATH\Views\layout\menu.php on line 59.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/menu', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/beranda', [], true)
+ 4 APPPATH\Controllers\Layout.php(8): view('layout/beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Layout->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\template\\MBL\\public\\index.php')
+ERROR - 2024-11-10 13:30:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbmasjid2200014' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbmasjid2200014', 3306, '', 0)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#8 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbmasjid2200014' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#5 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#12 {main}
+CRITICAL - 2024-11-10 13:30:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbmasjid2200014'
+[Method: GET, Route: pelanggan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelanggan`', [], false)
+ 3 APPPATH\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+ERROR - 2024-11-10 13:30:52 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbmasjid2200014' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbmasjid2200014', 3306, '', 0)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#8 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbmasjid2200014' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#5 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#12 {main}
+CRITICAL - 2024-11-10 13:30:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbmasjid2200014'
+[Method: GET, Route: Pelanggan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelanggan`', [], false)
+ 3 APPPATH\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+ERROR - 2024-11-10 13:31:27 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbpetshop22000006' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpetshop220000...', 3306, '', 0)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#8 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbpetshop22000006' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#5 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#12 {main}
+CRITICAL - 2024-11-10 13:31:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpetshop22000006'
+[Method: GET, Route: Pelanggan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelanggan`', [], false)
+ 3 APPPATH\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+ERROR - 2024-11-10 13:31:28 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbpetshop22000006' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpetshop220000...', 3306, '', 0)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#8 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbpetshop22000006' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Asus\Downloads\MBL\app\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Asus\Downloads\MBL\app\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+#5 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#12 {main}
+CRITICAL - 2024-11-10 13:31:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbpetshop22000006'
+[Method: GET, Route: Pelanggan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelanggan`', [], false)
+ 3 APPPATH\Models\ModelPelanggan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Pelanggan.php(11): App\Models\ModelPelanggan->getPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+CRITICAL - 2024-11-10 13:32:01 --> ErrorException: Undefined variable $pelanggan
+[Method: GET, Route: Pelanggan]
+in APPPATH\Views\pelanggan\v_pelanggan.php on line 48.
+ 1 APPPATH\Views\pelanggan\v_pelanggan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelanggan', 'C:\\Users\\Asus\\Downloads\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Asus\\Downloads\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 5 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+CRITICAL - 2024-11-10 13:32:03 --> ErrorException: Undefined variable $pelanggan
+[Method: GET, Route: Pelanggan]
+in APPPATH\Views\pelanggan\v_pelanggan.php on line 48.
+ 1 APPPATH\Views\pelanggan\v_pelanggan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelanggan', 'C:\\Users\\Asus\\Downloads\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Asus\\Downloads\\MBL\\app\\Views\\pelanggan\\v_pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 5 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+INFO - 2024-11-10 13:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-10 14:50:42 --> mysqli_sql_exception: Table 'dbpetshop2200006.tbl_user2200014' doesn't exist in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Asus\Downloads\MBL\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Asus\Downloads\MBL\app\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#13 {main}
+CRITICAL - 2024-11-10 14:50:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbpetshop2200006.tbl_user2200014' doesn't exist
+[Method: POST, Route: login/ceklogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = :nama_user:', [...], false)
+ 2 APPPATH\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+CRITICAL - 2024-11-10 14:50:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbpetshop2200006.tbl_user2200014' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = \'jane\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = \'jane\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = :nama_user:', [...], false)
+ 4 APPPATH\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+CRITICAL - 2024-11-10 14:50:42 --> [Caused by] mysqli_sql_exception: Table 'dbpetshop2200006.tbl_user2200014' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = \'jane\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = \'jane\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = \'jane\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user2200014`
+WHERE `nama_user` = :nama_user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+INFO - 2024-11-10 14:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-10 14:51:57 --> mysqli_sql_exception: Unknown column 'username_user' in 'where clause' in C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\Users\Asus\Downloads\MBL\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Asus\Downloads\MBL\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Asus\Downloads\MBL\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Asus\Downloads\MBL\app\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Asus\Downloads\MBL\app\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+#6 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+#7 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Asus\Downloads\MBL\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Asus\Downloads\MBL\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Asus\Downloads\MBL\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Asus\Downloads\MBL\system\rewrite.php(44): require_once('C:\\Users\\Asus\\D...')
+#13 {main}
+CRITICAL - 2024-11-10 14:51:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username_user' in 'where clause'
+[Method: POST, Route: login/ceklogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username_user` = :username_user:', [...], false)
+ 2 APPPATH\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+CRITICAL - 2024-11-10 14:51:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `username_user` = \'jane\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `username_user` = \'jane\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username_user` = :username_user:', [...], false)
+ 4 APPPATH\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+CRITICAL - 2024-11-10 14:51:57 --> [Caused by] mysqli_sql_exception: Unknown column 'username_user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `user`
+WHERE `username_user` = \'jane\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `username_user` = \'jane\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `username_user` = \'jane\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username_user` = :username_user:', [...], false)
+ 5 APPPATH\Models\UserModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Login.php(17): App\Models\UserModel->cek_login('jane')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+INFO - 2024-11-10 14:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 14:52:19 --> ErrorException: Undefined array key "nama_user"
+[Method: POST, Route: login/ceklogin]
+in APPPATH\Controllers\Login.php on line 22.
+ 1 APPPATH\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'C:\\Users\\Asus\\Downloads\\MBL\\app\\Controllers\\Login.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->ceklogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+INFO - 2024-11-10 14:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 17:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 18:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 19:31:48 --> ArgumentCountError: Too few arguments to function App\Controllers\Pelanggan::delete(), 0 passed in C:\Users\Asus\Downloads\MBL\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: pelanggan/delete]
+in APPPATH\Controllers\Pelanggan.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+INFO - 2024-11-10 19:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 19:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 20:15:58 --> Error: Undefined constant "modal"
+[Method: GET, Route: pelanggan/index]
+in APPPATH\Views\layout\main.php on line 35.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 6 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Asus\\Downloads\\MBL\\public\\index.php')
+INFO - 2024-11-10 20:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 20:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
