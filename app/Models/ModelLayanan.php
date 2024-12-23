@@ -1,31 +1,22 @@
 <?php
+
 namespace App\Models;
 
 use CodeIgniter\Model;
 
 class ModelLayanan extends Model
 {
-    public function getlayanan()
-    {
-      $builder = $this->db->table('layanan');
-      return $builder->get();
-    }
+    protected $table = 'layanan';
+    protected $primaryKey = 'id_layanan';
+    protected $allowedFields = ['nama_layanan', 'deskripsi', 'harga'];
+    protected $useTimestamps = true;
 
-
-    public function insertData($data)
+    public function getLayanan($id = null)
     {
-        $this->db->table('layanan')->insert($data);
-    }
+        if ($id === null) {
+            return $this->findAll();
+        }
 
-    public function deletlayanan($id)
-    {
-        $query = $this->db->table('layanan')->delete(array('id_layanan' => $id));
-        return $query;
-    }
-
-    public function updatelayanan($data, $id)
-    {
-        $query = $this->db->table('layanan')->update($data, array('id_layanan' => $id));
+        return $this->find($id);
     }
 }
-?>

@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1734942620;_ci_previous_url|s:121:"http://localhost:8081/barangkeluar/laporan?filter_type=bulan&tgl_awal=2024-11-23&tgl_akhir=2024-12-23&bulan=12&tahun=2024";username|s:4:"jane";masuk|b:1;level|s:1:"1";error|s:53:"Terjadi kesalahan: Undefined array key "no_transaksi"";__ci_vars|a:1:{s:5:"error";s:3:"old";}

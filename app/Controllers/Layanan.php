@@ -46,7 +46,7 @@ class Layanan extends BaseController
         $model = new ModelLayanan();
         $id = $this->request->getpost('id');
         $model->deletlayanan($id);
-        return redirect()->to('/layanan/index');
+        return redirect()->to('/layanan');
     }
 
     function update()
@@ -60,7 +60,7 @@ class Layanan extends BaseController
             'harga'        => $this->request->getPost('harga'),
     );
     $model->updatelayanan($data, $id);
-    return redirect()->to('/layanan/index');
+    return redirect()->to('/layanan');
 }
 }
 ?>

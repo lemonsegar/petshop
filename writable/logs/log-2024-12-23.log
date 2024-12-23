@@ -1,0 +1,1646 @@
+INFO - 2024-12-23 03:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 03:12:57 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 317.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-12-23 03:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 03:19:42 --> ErrorException: include(D:\Rafi Chandra\Codeigniter4\petshop\app\Views/pelanggan/modalpelanggan.php): Failed to open stream: No such file or directory
+[Method: GET, Route: pelanggan]
+in APPPATH\Views\layout\main.php on line 25.
+ 1 APPPATH\Views\layout\main.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Views/pelanggan/modalpelanggan.php): Failed to open stream: No such file or directory', 'D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Views\\layout\\main.php', 25)
+ 2 APPPATH\Views\layout\main.php(25): include()
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Views\\layout\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/main', [], true)
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 7 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 03:20:34 --> ErrorException: include(D:\Rafi Chandra\Codeigniter4\petshop\app\Views/pelanggan/modalpelanggan.php): Failed to open stream: No such file or directory
+[Method: GET, Route: Pelanggan]
+in APPPATH\Views\layout\main.php on line 25.
+ 1 APPPATH\Views\layout\main.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Views/pelanggan/modalpelanggan.php): Failed to open stream: No such file or directory', 'D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Views\\layout\\main.php', 25)
+ 2 APPPATH\Views\layout\main.php(25): include()
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Views\\layout\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/main', [], true)
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/v_pelanggan', [], true)
+ 7 APPPATH\Controllers\Pelanggan.php(12): view('pelanggan/v_pelanggan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 03:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 03:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 04:47:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: barangmasuk/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BarangMasuk.php(36): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 04:47:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: barangmasuk/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BarangMasuk.php(36): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 04:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 04:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 05:04:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(56): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:04:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(73): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+CRITICAL - 2024-12-23 05:04:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: barangmasuk/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'P001')
+ 4 APPPATH\Controllers\BarangMasuk.php(76): CodeIgniter\BaseModel->find('P001')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+ERROR - 2024-12-23 05:06:05 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(56): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:06:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+CRITICAL - 2024-12-23 05:06:05 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+[Method: POST, Route: barangmasuk/store]
+in APPPATH\Controllers\BarangMasuk.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+ERROR - 2024-12-23 05:06:51 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(56): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:06:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:06:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:06:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+INFO - 2024-12-23 05:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 05:07:29 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(56): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:07:29 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:07:29 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+ERROR - 2024-12-23 05:07:29 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbpetshop2200006`.`barang_masuk_detail`, CONSTRAINT `barang_masuk_detail_ibfk_1` FOREIGN KEY (`id_barang_masuk`) REFERENCES `barang_masuk` (`id_barang_masuk`)) in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(74): CodeIgniter\Model->insert(Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->store()
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+INFO - 2024-12-23 05:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 05:21:20 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `barang_...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `barang_...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `barang_...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `barang_...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(162): CodeIgniter\Model->update('2', Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->update('2')
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+INFO - 2024-12-23 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 05:22:35 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `barang_...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `barang_...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `barang_...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `barang_...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(162): CodeIgniter\Model->update('2', Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->update('2')
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+INFO - 2024-12-23 05:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 05:22:55 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `barang_...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `barang_...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `barang_...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `barang_...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(162): CodeIgniter\Model->update('2', Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->update('2')
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+INFO - 2024-12-23 05:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 05:23:38 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `barang_...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `barang_...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `barang_...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `barang_...', Array, false)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(162): CodeIgniter\Model->update('2', Array)
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->update('2')
+#9 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#15 {main}
+INFO - 2024-12-23 05:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 05:55:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: pelanggan/datatables]
+in APPPATH\Controllers\Pelanggan.php on line 76.
+ 1 APPPATH\Controllers\Pelanggan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Controllers\\Pelanggan.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 05:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 05:55:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: pelanggan/datatables]
+in APPPATH\Controllers\Pelanggan.php on line 76.
+ 1 APPPATH\Controllers\Pelanggan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Rafi Chandra\\Codeigniter4\\petshop\\app\\Controllers\\Pelanggan.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 05:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 05:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:15:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: barangkeluar/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'P002')
+ 4 APPPATH\Controllers\BarangKeluar.php(82): CodeIgniter\BaseModel->find('P002')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 06:18:16 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: barangkeluar/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'P002')
+ 4 APPPATH\Controllers\BarangKeluar.php(74): CodeIgniter\BaseModel->find('P002')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 06:22:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: barangkeluar/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'P002')
+ 4 APPPATH\Controllers\BarangKeluar.php(76): CodeIgniter\BaseModel->find('P002')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:23:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: barangkeluar/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'P001')
+ 4 APPPATH\Controllers\BarangKeluar.php(76): CodeIgniter\BaseModel->find('P001')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 06:24:51 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: barangkeluar/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(189): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 'P001')
+ 4 APPPATH\Controllers\BarangKeluar.php(75): CodeIgniter\BaseModel->find('P001')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:26:17 --> Error: Call to a member function findAll() on array
+[Method: GET, Route: barangkeluar]
+in APPPATH\Controllers\BarangKeluar.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:27:33 --> Error: Call to a member function find() on array
+[Method: GET, Route: barangkeluar/show/6]
+in APPPATH\Controllers\BarangKeluar.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->show('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:27:44 --> Error: Call to a member function find() on array
+[Method: GET, Route: barangkeluar/show/6]
+in APPPATH\Controllers\BarangKeluar.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->show('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 06:28:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "barangkeluar/show.php"
+[Method: GET, Route: barangkeluar/show/6]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barangkeluar/show.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barangkeluar/show', [], true)
+ 3 APPPATH\Controllers\BarangKeluar.php(132): view('barangkeluar/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->show('6')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 06:31:38 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: barangkeluar/show/6]
+in APPPATH\Views\barangkeluar\show.php on line 25.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barangkeluar/show', [], true)
+ 4 APPPATH\Controllers\BarangKeluar.php(132): view('barangkeluar/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->show('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:37:32 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: barangkeluar/edit/6]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BarangKeluar.php(141): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 06:38:31 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: barangkeluar/edit/6]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BarangKeluar.php(161): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 06:38:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: barangkeluar/edit/6]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\BarangKeluar.php(161): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangKeluar->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangKeluar))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 06:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 06:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 07:06:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: pelayanan/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Pelayanan.php(40): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 07:11:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: pelayanan/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Pelayanan.php(40): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:12:48 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: pelayanan/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Pelayanan.php(40): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 07:21:47 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: pelayanan/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Pelayanan.php(120): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 07:21:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: pelayanan/edit/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Pelayanan.php(120): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 07:31:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: pelanggan/laporan]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(273): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Pelanggan.php(141): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 07:36:23 --> mysqli_sql_exception: Table 'dbpetshop2200006.kategori' doesn't exist in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT p.*, k.n...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, k.n...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, k.n...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.n...')
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#11 {main}
+CRITICAL - 2024-12-23 07:36:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbpetshop2200006.kategori' doesn't exist
+[Method: GET, Route: produk/laporan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:36:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbpetshop2200006.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 3 APPPATH\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:36:23 --> [Caused by] mysqli_sql_exception: Table 'dbpetshop2200006.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 4 APPPATH\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                    LEFT JOIN kategori k ON k.id_kategori = p.id_kategori 
+                    ORDER BY p.nama_produk ASC')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 07:37:47 --> mysqli_sql_exception: Unknown column 'k.nama_kategori' in 'field list' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT p.*, k.n...', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, k.n...')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, k.n...')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.n...')
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#11 {main}
+CRITICAL - 2024-12-23 07:37:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'k.nama_kategori' in 'field list'
+[Method: GET, Route: produk/laporan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:37:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'k.nama_kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 3 APPPATH\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:37:47 --> [Caused by] mysqli_sql_exception: Unknown column 'k.nama_kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 4 APPPATH\Controllers\Produk.php(82): CodeIgniter\Database\BaseConnection->query('SELECT p.*, k.nama_kategori 
+                    FROM produk p 
+                   
+                    ORDER BY p.nama_produk ASC')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produk->laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 07:55:25 --> mysqli_sql_exception: Table 'dbpetshop2200006.supplier' doesn't exist in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT bm.*, s....', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bm.*, s....')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bm.*, s....')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\BarangMasuk.php(289): CodeIgniter\Database\BaseConnection->query('SELECT bm.*, s....', Array)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\BarangMasuk->laporan()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#11 {main}
+CRITICAL - 2024-12-23 07:55:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbpetshop2200006.supplier' doesn't exist
+[Method: GET, Route: barangmasuk/laporan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Controllers\BarangMasuk.php(289): CodeIgniter\Database\BaseConnection->query('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN ? AND ?
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:55:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbpetshop2200006.supplier' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\'
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\'
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC')
+ 3 APPPATH\Controllers\BarangMasuk.php(289): CodeIgniter\Database\BaseConnection->query('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN ? AND ?
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->laporan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 07:55:25 --> [Caused by] mysqli_sql_exception: Table 'dbpetshop2200006.supplier' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\'
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\'
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\'
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC')
+ 4 APPPATH\Controllers\BarangMasuk.php(289): CodeIgniter\Database\BaseConnection->query('SELECT bm.*, s.nama_supplier,
+                           bmd.id_produk, p.nama_produk, bmd.jumlah, bmd.harga, bmd.subtotal
+                    FROM barang_masuk bm
+                    JOIN supplier s ON s.id_supplier = bm.id_supplier
+                    JOIN barang_masuk_detail bmd ON bmd.id_barang_masuk = bm.id_barang_masuk
+                    JOIN produk p ON p.id_produk = bmd.id_produk
+                    WHERE DATE(bm.tanggal) BETWEEN ? AND ?
+                    ORDER BY bm.tanggal DESC, bm.id_barang_masuk ASC', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 07:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 07:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-23 08:01:32 --> Error: Call to undefined function bulan()
+[Method: GET, Route: barangmasuk/laporan]
+in APPPATH\Views\barangmasuk\laporan.php on line 57.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barangmasuk/laporan', [], true)
+ 4 APPPATH\Controllers\BarangMasuk.php(312): view('barangmasuk/laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangMasuk->laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasuk))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 08:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-23 08:25:16 --> mysqli_sql_exception: Unknown column 'p.id_layanan' in 'on clause' in D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT p.*, pl....', 0)
+#1 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, pl....')
+#2 D:\Rafi Chandra\Codeigniter4\petshop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, pl....')
+#3 D:\Rafi Chandra\Codeigniter4\petshop\app\Controllers\Pelayanan.php(257): CodeIgniter\Database\BaseConnection->query('SELECT p.*, pl....', Array)
+#4 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(933): App\Controllers\Pelayanan->laporan()
+#5 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#6 D:\Rafi Chandra\Codeigniter4\petshop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 D:\Rafi Chandra\Codeigniter4\petshop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Rafi Chandra\Codeigniter4\petshop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Rafi Chandra\Codeigniter4\petshop\system\rewrite.php(44): require_once('D:\\Rafi Chandra...')
+#11 {main}
+CRITICAL - 2024-12-23 08:25:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p.id_layanan' in 'on clause'
+[Method: GET, Route: pelayanan/laporan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Controllers\Pelayanan.php(257): CodeIgniter\Database\BaseConnection->query('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN ? AND ? ORDER BY p.tanggal DESC, p.id_pelayanan ASC', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 08:25:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'p.id_layanan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\' ORDER BY p.tanggal DESC, p.id_pelayanan ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\' ORDER BY p.tanggal DESC, p.id_pelayanan ASC')
+ 3 APPPATH\Controllers\Pelayanan.php(257): CodeIgniter\Database\BaseConnection->query('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN ? AND ? ORDER BY p.tanggal DESC, p.id_pelayanan ASC', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->laporan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+CRITICAL - 2024-12-23 08:25:16 --> [Caused by] mysqli_sql_exception: Unknown column 'p.id_layanan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\' ORDER BY p.tanggal DESC, p.id_pelayanan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\' ORDER BY p.tanggal DESC, p.id_pelayanan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN \'2024-11-23\' AND \'2024-12-23\' ORDER BY p.tanggal DESC, p.id_pelayanan ASC')
+ 4 APPPATH\Controllers\Pelayanan.php(257): CodeIgniter\Database\BaseConnection->query('SELECT p.*, pl.nama_pelanggan, l.nama_layanan, l.harga
+                    FROM pelayanan p
+                    JOIN pelanggan pl ON pl.id_pelanggan = p.id_pelanggan
+                    JOIN layanan l ON l.id_layanan = p.id_layanan
+                    WHERE 1=1 AND DATE(p.tanggal) BETWEEN ? AND ? ORDER BY p.tanggal DESC, p.id_pelayanan ASC', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->laporan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 08:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-23 08:48:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+WARNING - 2024-12-23 08:48:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+WARNING - 2024-12-23 08:48:26 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+WARNING - 2024-12-23 08:48:26 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 08:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-23 08:48:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+WARNING - 2024-12-23 08:48:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+WARNING - 2024-12-23 08:48:37 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+WARNING - 2024-12-23 08:48:37 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\tanggal_helper.php on line 28.
+ 1 APPPATH\Helpers\tanggal_helper.php(28): strtotime(null)
+ 2 APPPATH\Controllers\Pelayanan.php(304): tanggal_indo(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelayanan->cetakPdf()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Rafi Chandra\\Codeigniter4\\petshop\\public\\index.php')
+INFO - 2024-12-23 08:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-23 08:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
